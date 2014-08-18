@@ -28,3 +28,11 @@ To disable the MiniProfiler output, you can set the following config in the `web
     	</appSettings>
     </configuration>
 	
+## Usage
+For profiling your code, you just need to add a line of code each for starting and ending the profiling. It is important the event name is the same for starting and ending the profiling:
+
+    Unic.Profiling.Profiler.Profiler.OnStart(this, "My code");
+    
+    ...
+    
+    Unic.Profiling.Profiler.Profiler.OnEnd(this, "My code");
