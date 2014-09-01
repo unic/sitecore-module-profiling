@@ -31,7 +31,10 @@
             
             lock (Locker)
             {
-                Profiles.Add(e.EventName, MiniProfiler.Current.Step(e.EventName));
+                if (!Profiles.ContainsKey(e.EventName))
+                {
+                    Profiles.Add(e.EventName, MiniProfiler.Current.Step(e.EventName));
+                }
             }
         }
 
