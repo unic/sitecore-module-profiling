@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
+    <id>Unic.Profiling.MiniProfiler</id>
+    <version>$VERSION$</version>
     <authors>Kevin Brechbühl</authors>
     <owners>Unic AG</owners>
-    <projectUrl>https://git.unic.com/projects/BUECS/repos/sitecore-module-profiling/</projectUrl>
-    <iconUrl>https://www.unic.com/img/unic-logo.jpg</iconUrl>
+    <projectUrl>https://github.com/unic/sitecore-module-profiling</projectUrl>
+    <iconUrl>https://github.com/unic/unic/raw/master/unic_nuget.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>MiniProfiler adapter for Unic profiling framework</description>
     <releaseNotes></releaseNotes>
-    <copyright>$copyright$</copyright>
     <tags>Sitecore Unic Profiling MiniProfiler adapter</tags>
 	<dependencies>
 	  <dependency id="Unic.Profiling" version="1.0.0" />
