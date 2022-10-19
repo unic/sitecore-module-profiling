@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
+    <id>Unic.Profiling</id>
+    <version>$VERSION$</version>
     <authors>Kevin Brechbühl</authors>
     <owners>Unic AG</owners>
-    <projectUrl>https://git.unic.com/projects/BUECS/repos/sitecore-module-profiling/</projectUrl>
-    <iconUrl>https://www.unic.com/img/unic-logo.jpg</iconUrl>
+    <projectUrl>https://github.com/unic/sitecore-module-profiling</projectUrl>
+    <iconUrl>https://github.com/unic/unic/raw/master/unic_nuget.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Unic profiling framework</description>
     <releaseNotes></releaseNotes>
-    <copyright>$copyright$</copyright>
     <tags>Sitecore Unic Profiling</tags>
   </metadata>
 </package>
