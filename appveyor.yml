@@ -1,5 +1,5 @@
 version: '{build}'
-image: Visual Studio 2017
+image: Visual Studio 2013
 
 environment:
   RepoName: sitecore-module-profiling
